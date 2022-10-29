@@ -14,3 +14,6 @@ Full Stack 1: Frontend And Python
 1. https://github.com/nyongmercy/MyFirst_Django-Projects
 # week4 Tasks -  CSS cont.
 2. https://replit.com/@nyongmercy/3-column-card-design
+
+# Week5 tasks -  Django CRUD
+1. https://github.com/nyongmercy/MyFirst_Django-Projects
