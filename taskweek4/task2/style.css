@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Happy+Monkey&family=Inter:wght@600&family=Orbitron&family=Outfit:wght@100;800&display=swap');
+
+
+body{
+    background-color:#f2f2f2;
+
+}
+
+main{
+   display: flex;
+   margin: 0 auto;
+   width: 80%;
+
+
+ 
+   margin-top: 100px;
+   padding: 5vw;
+   
+
+
+}
+
+img{
+    margin-bottom: 2em;
+}
+
+.sedan-div,.suv-div,.luxury-div{
+  
+    justify-content: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 80%;
+  font-family: 'Big Shoulders Text', cursive;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    
+}
+
+
+
+.copy{
+   
+    width: 90%;
+    margin-bottom: 5em;
+    margin-top: 2em;
+    color:#f2f2f2;
+    
+}
+
+button{
+  max-width: 100%;
+border-radius: 50px;
+padding: .7em;
+
+color:hsl(31, 77%, 52%) ;
+border: none;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+.sedan-div{
+    background-color:  hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+   
+}
+.suv-div{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-div{
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.sedan-btn{
+color:hsl(31, 77%, 52%) ;
+}
+
+.suv-btn{
+color:hsl(184, 100%, 22%);
+}
+
+.luxury-btn{
+color: hsl(179, 100%, 13%);  
+}
+
+
+/*buttons on active states  */
+.sedan-btn:hover{
+  background-color: hsl(31, 77%, 52%);
+  color:#f2f2f2;
+  border: 1px solid white;
+}
+
+.suv-btn:hover{
+  background-color:hsl(184, 100%, 22%) ;
+  color:#f2f2f2;
+  border: 1px solid white;
+}
+
+.luxury-btn:hover{
+  background-color: hsl(179, 100%, 13%);
+  color:#f2f2f2;
+  border: 1px solid white;
+}
+
+/*grid task link styling  */
+ .grid-task-link{
+
+  margin-top:100px;
+} 
+
+a{
+  text-decoration: none;
+  color: white;
+  background-color:gray;
+  border:1px solid black;
+  border-radius: 5px;
+  padding: .5em;
+  margin-left:.5rem;
+
+}
+
+
+
+
+/* ************************************************************************************************************************************************** */
+/* STYLING OF GRID LAYOUT  */
+
+body{
+    background-color:hsl(0,0%,15%) ;
+}
+
+.grid-layingout {
+    display: grid;
+    grid-template-areas: 
+    'A A A B B'
+    'C C D D D'
+    'C C D D D'
+    ;
+/*     gap: 10px; */
+}
+
+.first-block{
+background-color:hsl(14,84%,52%);
+  grid-area: A;
+}
+
+.second-block{
+background-color: hsl(39,100%,50%);
+  grid-area: B;
+}
+
+.third-block{ 
+background-color:hsl(142,94%,34%);
+  grid-area: c;
+}
+
+.fourth-block{
+background-color:hsl(199,99%,50%);
+  grid-area: D;
+}

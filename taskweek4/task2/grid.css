@@ -1,0 +1,63 @@
+/* ************************************************************************************************************************************************** */
+/* STYLING OF GRID LAYOUT  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: 
+yellow;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    background-color: 
+black;
+    gap: 10px;
+    width: 80%;
+}
+
+main div{
+    padding: 4em;
+    text-align: center;
+   
+}
+
+.item-1{
+    background-color: 
+green;
+    grid-area: a;
+}
+
+.item-2{
+    background-color: 
+blue;
+    grid-area: b;
+}
+
+.item-3{
+    background-color: 
+purple;
+    grid-area: c;
+}
+
+.item-4{
+    background-color: 
+orangered;
+    grid-area: d;
+}
+
+.item-5{
+    background-color: 
+indianred;
+    grid-area: e;
+}
